@@ -1,8 +1,0 @@
-version: "3.9"
-services:
-    flask:
-        image: docker.io/rschop/odcn:flaskapp
-        ports:
-        - 5001:80
-
-# podman run -dt -p 8081:80 docker.io/rschop/odcn:flaskapp
